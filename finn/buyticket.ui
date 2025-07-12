@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>buyTicket</class>
+ <widget class="QMainWindow" name="buyTicket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>buyTicket</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>441</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255,200);
+border-radius: 10px;</string>
+    </property>
+    <widget class="QLabel" name="beginTime_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>00:00</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fromPlace_2">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>50</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>A城市</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="arrivalTime_2">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>12:00</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="airlineNumber_2">
+     <property name="geometry">
+      <rect>
+       <x>105</x>
+       <y>20</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>AB1234</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="price1_2">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>83</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>￥100</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="toPlace_2">
+     <property name="geometry">
+      <rect>
+       <x>195</x>
+       <y>50</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>B城市</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="price2_2">
+     <property name="geometry">
+      <rect>
+       <x>233</x>
+       <y>83</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>￥200</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="price3_2">
+     <property name="geometry">
+      <rect>
+       <x>373</x>
+       <y>83</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>￥300</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buy1_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>购买经济舱</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buy2_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>80</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>购买商务舱</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buy3_2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>80</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 255);</string>
+     </property>
+     <property name="text">
+      <string>购买头等舱</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="economyClass_3">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>15</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>经济舱</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="firstClass_3">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>55</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>头等舱</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="businessClass_3">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>35</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>商务舱</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="economyClass_4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>15</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(85, 170, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>有票</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="firstClass_4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>55</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(85, 170, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>有票</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="businessClass_4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>35</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255,0);
+color: rgb(85, 170, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>有票</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>40</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255,0);</string>
+     </property>
+     <property name="text">
+      <string>&gt;&gt;&gt;&gt;&gt;&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

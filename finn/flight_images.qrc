@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sign/1exitSign.png</file>
+        <file>sign/2exitSign.png</file>
+        <file>sign/3exitSign.png</file>
+        <file>sign/4exitSign.png</file>
+        <file>sign/5exitSign.png</file>
+        <file>sign/bei'jing.jpg</file>
+        <file>sign/buyTicketPage.png</file>
+        <file>sign/cheng'du.jpg</file>
+        <file>sign/customerServicePage.png</file>
+        <file>sign/guang'zhou.jpg</file>
+        <file>sign/hang'zhou.jpg</file>
+        <file>sign/homepage.png</file>
+        <file>sign/lun'dun.jpg</file>
+        <file>sign/nan'jing.jpg</file>
+        <file>sign/niu'yue.jpg</file>
+        <file>sign/personinfoPage.png</file>
+        <file>sign/shang'hai.jpg</file>
+        <file>sign/shen'zhen.jpg</file>
+        <file>sign/sing'ga'po.jpg</file>
+        <file>sign/test.jpg</file>
+        <file>sign/xi'an.jpg</file>
+        <file>sign/xin'jiang.jpg</file>
+        <file>sign/xi'zang.jpg</file>
+    </qresource>
+</RCC>
